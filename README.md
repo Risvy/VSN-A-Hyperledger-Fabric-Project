@@ -30,4 +30,5 @@ https://docs.docker.com/engine/install/ubuntu/
 https://docs.docker.com/compose/install/
 
 ### Downloading COVID-19 Vaccine Supply Chain project
-git clone 
+git clone https://github.com/Risvy/VSN-A-Hyperledger-Fabric-Project.git
+
