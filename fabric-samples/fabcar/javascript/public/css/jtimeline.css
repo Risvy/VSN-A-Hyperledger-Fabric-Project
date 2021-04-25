@@ -1,0 +1,122 @@
+.jtimeline, .jtimeline * {
+  box-sizing: border-box;
+}
+
+.jtimeline {
+  max-width: 100%;
+  position: relative;
+  padding: 100px 200px;
+  overflow: hidden;
+}
+.jtimeline .jtimeline-scroll-left,
+.jtimeline .jtimeline-scroll-right {
+  position: absolute;
+  cursor: pointer;
+  z-index: 20;
+}
+.jtimeline .jtimeline-scroll-left > .jtimeline-arrow,
+.jtimeline .jtimeline-scroll-right > .jtimeline-arrow {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -25px;
+  background-color: #555;
+  color: #fff;
+  border-radius: 999px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.jtimeline .jtimeline-scroll-left.is-disabled,
+.jtimeline .jtimeline-scroll-right.is-disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+.jtimeline .jtimeline-scroll-left {
+  left: 10px;
+}
+.jtimeline .jtimeline-scroll-right {
+  right: 10px;
+}
+.jtimeline ul.jtimeline-events {
+  min-width: 100%;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform: translate(0, 0);
+  transition: 0.5s ease-in-out;
+}
+.jtimeline ul.jtimeline-events:before {
+  content: "";
+  display: block;
+  width: 50000px;
+  height: 3px;
+  background-color: #ccc;
+  position: relative;
+  left: -25000px;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event {
+  display: block;
+  position: absolute;
+  z-index: 10;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event > .jtimeline-event-bullet {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #fafafa;
+  border-radius: 9999px;
+  border-width: 3px;
+  border-color: #0f87ff;
+  border-style: solid;
+  position: relative;
+  top: -16.5px;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event > .jtimeline-event-label {
+  position: absolute;
+  left: -85px;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #fafafa;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event > .jtimeline-event-label:after {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 10px;
+  background-color: #0f87ff;
+  border-radius: 9999px;
+  position: absolute;
+  left: 98.5px;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event:nth-child(odd) > .jtimeline-event-label {
+  top: -126.5px;
+  align-items: flex-end;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event:nth-child(odd) > .jtimeline-event-label:after {
+  bottom: -11px;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event:nth-child(even) > .jtimeline-event-label {
+  align-items: flex-start;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event:nth-child(even) > .jtimeline-event-label:after {
+  top: -17.5px;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event:hover, .jtimeline ul.jtimeline-events > li.jtimeline-event.is-active {
+  z-index: 20;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event:hover > .jtimeline-event-bullet, .jtimeline ul.jtimeline-events > li.jtimeline-event.is-active > .jtimeline-event-bullet {
+  border-color: #3abb67;
+  background-color: #3abb67;
+}
+.jtimeline ul.jtimeline-events > li.jtimeline-event:hover > .jtimeline-event-label:after, .jtimeline ul.jtimeline-events > li.jtimeline-event.is-active > .jtimeline-event-label:after {
+  background-color: #3abb67;
+}
+
+/*# sourceMappingURL=jtimeline.css.map */
