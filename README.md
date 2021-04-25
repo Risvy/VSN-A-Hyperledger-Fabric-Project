@@ -121,7 +121,7 @@ Now visit: http://localhost:3000/
 
 Hope the first time installation if successful.
 
-Now every time we need to run the project, we just have to run the following commands. before hitting the url: http://localhost:3000/
+Now every time we need to run the project, we just have to run the following commands.
 ```
 cd $HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/fabcar 
 sudo ./startFabric.sh javascript
