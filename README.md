@@ -36,20 +36,21 @@ git clone https://github.com/Risvy/VSN-A-Hyperledger-Fabric-Project.git
 ### Setting up Environment Variables
 nano ~/.bashrc<br>
 If you have vs code then use<br>
-code ~/.bashrc
-export PATH=$PATH:$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/bin<br>
-export FABRIC_CFG_PATH=$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/config<br>
+code ~/.bashrc <br>
+export PATH=$PATH:$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/bin <br>
+export FABRIC_CFG_PATH=$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/config <br>
 then save it by pressing ctrl+s and then exit
 
 ### Stop ,start network ,create channel and deploy chaincode
-cd $HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/fabcar<br>
-run the command<br>
+cd $HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/fabcar <br>
+run the command <br>
 sudo ./startFabric.sh javascript
+
 ### Installing libraries for running the project
-cd javascript<br>
-npm install<br>
-npm i express,hbs,body-parser,async,express-session,express-validator,alert,process,querystring,qrcode,jimp,qrcode-reader --save<br>
-node enrollAdmin.js<br>
+cd javascript <br>
+npm install <br>
+npm i express,hbs,body-parser,async,express-session,express-validator,alert,process,querystring,qrcode,jimp,qrcode-reader --save <br>
+node enrollAdmin.js <br>
 node registerUser.js
 
 ### CouchDB UI
