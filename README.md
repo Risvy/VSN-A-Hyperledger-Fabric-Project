@@ -100,6 +100,8 @@ http://localhost:5984/_utils/ <br>
 Username:admin<br>
 Password:adminpw
 
+After login, go to 'mychannel_fabcar' folder to see the database.
+
 ### Run the project
 ```
 node app.js
