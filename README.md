@@ -24,10 +24,10 @@ We have used version 14.15.0. To install v14.15.0:
 ```
 nvm install v14.15.0
 nvm use v14.15.0
-```
 
-To install LTS (Long-term support) version of node:
-```
+
+# To install LTS (Long-term support) version of node:
+
 nvm install --lts
 nvm use --lts
 nvm alias default --lts
