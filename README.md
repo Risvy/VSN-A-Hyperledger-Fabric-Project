@@ -1,10 +1,11 @@
 # VSN-A-Hyperledger-Fabric-Project
-# COVID-19 Vaccine Supply Chain           
-This project is a blockchain-based supply chain for end-to-end traceability of the COVID-19 vaccine. It will also ensure proper quality and secure distribution of the vaccine.
+# COVID-19 Vaccine Supply Chain 
+
+A blockchain-based supply chain for end-to-end traceability of the COVID-19 vaccine while ensuring proper distribution and secure transportation.
 ### Prequisites
 * Git
 * Curl
-* Docker version 19.03.13
+* Docker
 * Docker Compose
 * Node.js
 
@@ -34,7 +35,12 @@ sudo apt install -y git curl
 ```
 
 ### Installing Docker
+
+(We used docker version 19.03.13. If the current version is not compitable please install docker v19.03.13) 
+To download docker, please visit:
 https://docs.docker.com/engine/install/ubuntu/
+
+
 
 ### Installing Docker Compose
 https://docs.docker.com/compose/install/
