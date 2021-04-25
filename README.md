@@ -8,7 +8,7 @@ This project is a blockchain-based supply chain for end-to-end traceability of t
 * Docker Compose
 * Node.js
 
-### Intalling Node.js
+### Intalling Node.j
 #To install nvm<br>
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
@@ -24,6 +24,7 @@ nvm use v14.15.0
 sudo apt install -y git curl
 
 ### Installing Docker
-
+https://docs.docker.com/engine/install/ubuntu/
 
 ### Installing Docker Compose
+https://docs.docker.com/compose/install/
