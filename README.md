@@ -10,19 +10,24 @@ A blockchain-based supply chain for end-to-end traceability of the COVID-19 vacc
 * Node.js
 
 ### Intalling Node.js
+
+To Install NVM (Node Version Manager):
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+To Use NVM:
+```
+source ~/.bashrc
 ```
 
-#install nvm 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-
-#to use nvm
-source ~/.bashrc
-
-#We have used version 14.15.0. To install v14.15.0
+We have used version 14.15.0. To install v14.15.0:
+```
 nvm install v14.15.0
 nvm use v14.15.0
+```
 
-#To install lts version of node
+To install LTS (Long-term support) version of node:
+```
 nvm install --lts
 nvm use --lts
 nvm alias default --lts
@@ -37,12 +42,14 @@ sudo apt install -y git curl
 ### Installing Docker
 
 (We used docker version 19.03.13. If the current version is not compitable please install docker v19.03.13) 
+
 To download docker, please visit:
 https://docs.docker.com/engine/install/ubuntu/
 
 
 
 ### Installing Docker Compose
+To download Docker Compose, please visit:
 https://docs.docker.com/compose/install/
 
 ### Downloading COVID-19 Vaccine Supply Chain project
