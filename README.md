@@ -12,17 +12,19 @@ This project is a blockchain-based supply chain for end-to-end traceability of t
 ```
 
 #install nvm 
-
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
-#to use nvm<br>
-
+#to use nvm
 source ~/.bashrc
 
-#We have used version14.15.0<br>
-
-nvm install v14.15.0<br>
+#We have used version14.15.0
+nvm install v14.15.0
 nvm use v14.15.0
+
+#To install lts version of node
+nvm install --lts
+nvm use --lts
+nvm alias default --lts
 ```
 
 
