@@ -17,7 +17,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 #to use nvm
 source ~/.bashrc
 
-#We have used version14.15.0
+#We have used version 14.15.0. To install v14.15.0
 nvm install v14.15.0
 nvm use v14.15.0
 
