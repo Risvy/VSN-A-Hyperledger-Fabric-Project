@@ -66,6 +66,7 @@ https://docs.docker.com/compose/install/
 ### Installing Hyperleger Fabric
 To install hyperledger Fabric version 2.2, run the command:
 ```
+cd $HOME
 curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s -- 2.2.3 1.5.0
 ```
 
@@ -90,6 +91,20 @@ export FABRIC_CFG_PATH=$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-sample
     cd $HOME
     git clone https://github.com/Risvy/VSN-A-Hyperledger-Fabric-Project.git
 ```
+If you are running the project for the first time, you must install all the dependencies. If you not running the project for the first time see the #Optional Part below.
+
+### Move Necessary Files
+
+After installing Hyperledger Fabric, a folder named "fabric-samples" was created in the 'Home' directory. We need to rename the existing chaincode file called 'fabcar.js'. 
+
+Simply follow the commands below to rename it to 'old_fabric.js'.
+```
+cd ~/fabric-samples/chaincode/fabcar/javascript/lib
+mv fabcar.js old_fabcar.js
+```
+
+
+
 ### Stop Network, Start network, Create Channel and Deploy Chaincode (All in one)
 
 As we are using Javascript, we need to run the command:
@@ -134,7 +149,7 @@ Now visit: http://localhost:3000/
 
 ### Optional
 
-Hope the first time installation if successful.
+Hope the first time installation was successful.
 
 Now every time we need to run the project, we just have to run the following commands.
 ```
