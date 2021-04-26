@@ -116,12 +116,8 @@ You will find a file named 'fabcar.js'. Copy this file to 'fabric-samples/chainc
 
 #PART 2:
 
-Go to the directory -> 'HOME/VSN-A-Hyperledger-Fabric-Project/Api- VSN/'. You should find 3 files: 'public', 'views' and  'app.js'. Copy these 3 files to -> 'HOME/fabric-samples/fabcar/javascript/'
+Go to the directory -> 'HOME/VSN-A-Hyperledger-Fabric-Project/Api- VSN/'. You should find 3 files: 'public', 'views' and  'app.js'. Copy these 3 files to -> 'HOME/fabric-samples/fabcar/javascript/' (inside the javascript folder).
 
-
-<p align="center">
-  <img src="/home/risvy/Pictures/github2.png" width="350" >
-</p>
 
 
 
