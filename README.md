@@ -4,7 +4,7 @@
 A blockchain-based supply chain for end-to-end traceability of the COVID-19 vaccine while ensuring proper distribution and secure transportation.
 
 
-# Contributors & Authors: 
+# Contributors: 
 
     * Muhid Hassan Risvy                              * Rim Chowdhury
     * Email: hassan.risvy1@gmail.com                  * Email: rimchy32@gmail.com
