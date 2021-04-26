@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css\bootstrap.min.css">
+        <link rel="stylesheet" href="css\all.min.css">
+        <link rel="stylesheet" href="css\style.css">
+        <title>QR Image For Vaccine</title>
+
+    </head>
+    <body>
+        <section class="nav-section fixed-top">
+            <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                <a class="navbar-brand" href="#"></a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link" href="producerhome">HOME</a>
+                    </li>
+                   
+                    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fas fa-user"></i>{{#if user.name}}{{user.name}}{{/if}}</a>
+                      <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#one"><i class="fas fa-user-edit"></i>UPDATE PROFILE</a></li>
+                        <li><a class="dropdown-item" href="logout"><i class="fas fa-sign-out-alt"></i>LOGOUT</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </nav>
+          </section>
+         <section class="mt-5">
+             <div class="container">
+                 <h3 class="text-white text-center" style="padding: 5% 0;">The QR code for this vaccine has been generated.</h3>
+                 
+                 <div class="qr-box">
+                     <div class="qr-code">
+                     <img src={{src}} alt="qrcode" class="img-fluid"/>    
+                     </div>                 
+                 </div>
+             </div>
+
+         </section>
+         <script src="js\bootstrap.min.js" ></script>
+        <script src="js\all.min.js" ></script> 
+        
+    </body>
+        
+        
+        
+        
+</html>
