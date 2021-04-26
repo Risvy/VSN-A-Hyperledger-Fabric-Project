@@ -94,14 +94,34 @@ export FABRIC_CFG_PATH=$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-sample
 If you are running the project for the first time, you must install all the dependencies. If you not running the project for the first time see the #Optional Part below.
 
 ### Move Necessary Files
+This is the most important part. We need to move our files from 'VSN-A-Hyperledger-Fabric-Project' to 'fabric-samples' folder.
 
-After installing Hyperledger Fabric, a folder named "fabric-samples" was created in the 'Home' directory. We need to rename the existing chaincode file called 'fabcar.js'. 
+#PART 1:
+
+
+
+After installing Hyperledger Fabric, a folder named "fabric-samples" was created in the 'Home' directory. Inside 'fabric-samples/chaincode/fabcar/javascript/lib', we need to rename the existing chaincode file 'fabcar.js' to something else. 
+
 
 Simply follow the commands below to rename it to 'old_fabric.js'.
 ```
 cd ~/fabric-samples/chaincode/fabcar/javascript/lib
 mv fabcar.js old_fabcar.js
 ```
+Now go to the directory-> 'HOME/VSN-A-Hyperledger-Fabric-Project/Chaincode- javascript/'
+
+You will find a file named 'fabcar.js'. Copy this file to 'fabric-samples/chaincode/fabcar/javascript/lib' (Where the 'old_fabric.js' file is located). Now inside the lib folder we have 'fabcar.js' and 'old_fabcar.js'.
+
+
+
+#PART 2:
+
+Go to the directory -> 'HOME/VSN-A-Hyperledger-Fabric-Project/Api- VSN/'. You should find 3 files: 'public', 'views' and  'app.js'. Copy these 3 files to -> 'HOME/fabric-samples/fabcar/javascript/'
+
+
+<p align="center">
+  <img src="~/Pictures/github2.png" width="350" >
+</p>
 
 
 
