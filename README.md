@@ -100,7 +100,7 @@ This is the most important part. We need to move our files from 'VSN-A-Hyperledg
 After installing Hyperledger Fabric, a folder named "fabric-samples" was created in the 'Home' directory. Inside 'fabric-samples/chaincode/fabcar/javascript/lib', we need to rename the existing chaincode file 'fabcar.js' to something else. 
 
 
-Simply follow the commands below to rename it to 'old_fabric.js'.
+Simply follow the commands below to rename it to 'old_fabcar.js'.
 ```
 cd ~/fabric-samples/chaincode/fabcar/javascript/lib
 mv fabcar.js old_fabcar.js
