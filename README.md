@@ -132,7 +132,7 @@ Now, run the following commands:
 ```
 cd javascript
 npm install 
-npm i express,hbs,body-parser,async,express-session,express-validator,alert,process,querystring,qrcode,jimp,qrcode-reader --save 
+npm i express hbs body-parser async express-session express-validator alert process querystring qrcode jimp qrcode-reader --save 
 node enrollAdmin.js 
 node registerUser.js
 ```
