@@ -64,9 +64,10 @@ To download Docker Compose, please visit:
 https://docs.docker.com/compose/install/
 
 ### Installing Hyperleger Fabric
+To install hyperledger Fabric version 2.2, run the command:
 ```
-To install hyperledger fabric version 2.2 run the command
-curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.2.3 1.5.0
+
+curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s -- 2.2.3 1.5.0
 ```
 
 ### Setting up Environment Variables
