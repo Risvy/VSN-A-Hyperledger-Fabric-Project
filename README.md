@@ -78,7 +78,7 @@ Else
 ```
 nano ~/.bashrc
 ```
-Add the following lines at the end of the script, save, and exit VS Code.
+Add the following lines at the end of the script, save, and exit.
 ```
 export PATH=$PATH:$HOME/fabric-samples/bin
 export FABRIC_CFG_PATH=$HOME/fabric-samples/config
