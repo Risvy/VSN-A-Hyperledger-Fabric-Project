@@ -185,8 +185,9 @@ P.S: For development purpose, if we make any changes to the chaincode, we have t
 sudo -i
 ```
 2. For API, Javascript or dependency related problem, download 
-<html> this folder </html> 
-and replace the local 'javascript' folder with the downloaded folder. Directory of the local 'javascript' folder should be -> 'HOME/fabric-samples/fabcar/javascript/'.
+   <a href="https://www.w3schools.com/">this folder!</a> 
+   and replace the local 'javascript' folder with the downloaded folder. Directory of the local 'javascript' folder should be -> 'HOME/fabric-samples/fabcar/javascript/'.
+3. If the problem persists, replace the whole 'fabric-samples' folder with <a href="https://www.w3schools.com/">this one!</a>.
 
 
 
