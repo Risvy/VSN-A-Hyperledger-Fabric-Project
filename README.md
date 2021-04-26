@@ -120,7 +120,7 @@ Go to the directory -> 'HOME/VSN-A-Hyperledger-Fabric-Project/Api- VSN/'. You sh
 
 
 <p align="center">
-  <img src="~/Pictures/github2.png" width="350" >
+  <img src="HOME/Pictures/github2.png" width="350" >
 </p>
 
 
