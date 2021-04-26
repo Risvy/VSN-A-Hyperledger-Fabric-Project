@@ -63,10 +63,10 @@ https://docs.docker.com/engine/install/ubuntu/
 To download Docker Compose, please visit:
 https://docs.docker.com/compose/install/
 
-### Downloading VSN: COVID-19 Vaccine Supply Chain Project
+### Installing Hyperleger Fabric
 ```
-cd $HOME
-git clone https://github.com/Risvy/VSN-A-Hyperledger-Fabric-Project.git
+To install hyperledger fabric version 2.2 run the command
+curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.2.3 1.5.0
 ```
 
 ### Setting up Environment Variables
@@ -83,6 +83,12 @@ Add the following lines at the end of the script, save, and exit VS Code.
 ```
 export PATH=$PATH:$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/bin 
 export FABRIC_CFG_PATH=$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/config 
+```
+
+###  Downloading VSN: COVID-19 Vaccine Supply Chain Project
+```
+    cd $HOME
+    git clone https://github.com/Risvy/VSN-A-Hyperledger-Fabric-Project.git
 ```
 ### Stop Network, Start network, Create Channel and Deploy Chaincode (All in one)
 
