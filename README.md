@@ -66,7 +66,6 @@ https://docs.docker.com/compose/install/
 ### Installing Hyperleger Fabric
 To install hyperledger Fabric version 2.2, run the command:
 ```
-
 curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s -- 2.2.3 1.5.0
 ```
 
