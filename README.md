@@ -183,6 +183,7 @@ P.S: For development purpose, if we make any changes to the chaincode, we have t
 1. For any kind of permission related problem, act as root user and try again.
 ```
 sudo -i
+# Your command
 ```
 2. For API, Javascript or dependency related problem, you can replace the local 'javascript' folder (Directory -> 'HOME/fabric-samples/fabcar/javascript/') with
    <a href="https://drive.google.com/drive/folders/1IqSUmFsQPofiBaHHphKBRQzQSi5svgKe?usp=sharing">this folder!</a> 
