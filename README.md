@@ -187,7 +187,7 @@ sudo -i
 2. For API, Javascript or dependency related problem, you can replace the local 'javascript' folder (Directory -> 'HOME/fabric-samples/fabcar/javascript/') with
    <a href="https://drive.google.com/drive/folders/1IqSUmFsQPofiBaHHphKBRQzQSi5svgKe?usp=sharing">this folder!</a> 
 
-3. If the problem persists, replace the whole 'fabric-samples' folder with <a href="https://drive.google.com/drive/folders/135v0JaqAz3M-VWD2h1fYsgadNAOJzPbl?usp=sharing">this 'fabric-samples' folder!</a>.
+3. If the problem persists, replace the whole 'fabric-samples' folder with <a href="https://drive.google.com/drive/folders/135v0JaqAz3M-VWD2h1fYsgadNAOJzPbl?usp=sharing">this folder!</a>.
 
 
 
