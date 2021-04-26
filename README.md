@@ -180,11 +180,13 @@ Now hit the URL: http://localhost:3000/ and we are online!
 P.S: For development purpose, if we make any changes to the chaincode, we have to restart the network and run these commands again.   
  
 ### Troubleshoot
-1. For any kind of permission problem, use root user or sudo to confirm root user:
+1. For any kind of permission related problem, act as root user and try again.
 ```
 sudo -i
 ```
-
+2. For API, Javascript or dependency related problem, download 
+<html> this folder </html> 
+and replace the local 'javascript' folder with the downloaded folder. Directory of the local 'javascript' folder should be -> 'HOME/fabric-samples/fabcar/javascript/'.
 
 
 
