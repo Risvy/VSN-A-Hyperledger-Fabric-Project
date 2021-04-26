@@ -1,5 +1,5 @@
-# VSN-A-Hyperledger-Fabric-Project
-# COVID-19 Vaccine Supply Chain 
+
+# VSN: COVID-19 Vaccine Supply Chain 
 
 A blockchain-based supply chain for end-to-end traceability of the COVID-19 vaccine while ensuring proper distribution and secure transportation.
 
