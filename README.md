@@ -82,8 +82,8 @@ nano ~/.bashrc
 ```
 Add the following lines at the end of the script, save, and exit VS Code.
 ```
-export PATH=$PATH:$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/bin 
-export FABRIC_CFG_PATH=$HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/config 
+export PATH=$PATH:$HOME/fabric-samples/bin
+export FABRIC_CFG_PATH=$HOME/fabric-samples/config
 ```
 
 ###  Downloading VSN: COVID-19 Vaccine Supply Chain Project
@@ -125,10 +125,10 @@ Go to the directory -> 'HOME/VSN-A-Hyperledger-Fabric-Project/Api- VSN/'. You sh
 
 As we are using Javascript, we need to run the command:
 ```
-cd $HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/fabcar 
+cd $HOME/fabric-samples/fabcar
 sudo ./startFabric.sh javascript
 ```
-If we use any other language, we have to replace 'javascript' portion of the command with that language. 
+If we want to use any other language, we have to replace 'javascript' portion of the command with that language. 
 
 ### Installing Libraries For Running The Project
 Now, run the following commands: 
@@ -169,7 +169,7 @@ Hope the first time installation was successful.
 
 Now every time we need to run the project, we just have to run the following commands.
 ```
-cd $HOME/VSN-A-Hyperledger-Fabric-Project-main/fabric-samples/fabcar 
+cd $HOME/fabric-samples/fabcar
 sudo ./startFabric.sh javascript
 cd javascript
 npm install 
