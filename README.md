@@ -179,6 +179,11 @@ Now hit the URL: http://localhost:3000/ and we are online!
 
 P.S: For development purpose, if we make any changes to the chaincode, we have to restart the network and run these commands again.   
  
+### Troubleshoot
+1. For any kind of permission problem, use root user or sudo to confirm root user:
+```
+sudo -i
+```
 
 
 
