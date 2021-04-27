@@ -20,7 +20,7 @@ A blockchain-based supply chain for end-to-end traceability of the COVID-19 vacc
 
 ### Intalling Node.js
 
-To Install NVM (Node Version Manager):
+Install NVM (Node Version Manager):
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 source ~/.bashrc
