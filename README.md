@@ -167,7 +167,7 @@ Hope the first time installation was successful.
 Now every time we need to run the project, we just have to run the following commands.
 ```
 cd $HOME/fabric-samples/fabcar
-sudo ./startFabric.sh javascript
+./startFabric.sh javascript
 cd javascript
 npm install 
 node enrollAdmin.js 
