@@ -11,7 +11,7 @@ A blockchain-based supply chain for end-to-end traceability of the COVID-19 vacc
     * https://github.com/Risvy                        * https://github.com/RimChy  
                                                                             
 
-### Prequisites
+### Prerequisites
 * Git
 * Curl
 * Docker
