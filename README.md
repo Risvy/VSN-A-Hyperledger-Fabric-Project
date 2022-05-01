@@ -1,7 +1,7 @@
 
-# COVID-19 Vaccine Supply Chain 
+# Vaccine Supply Chain 
 
-A blockchain-based supply chain for end-to-end traceability of the COVID-19 vaccine while ensuring proper distribution and secure transportation.
+A blockchain-based supply chain for end-to-end traceability of the vaccine while ensuring proper distribution and secure transportation.
 
 
 # Contributors: 
