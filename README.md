@@ -83,7 +83,7 @@ export PATH=$PATH:$HOME/fabric-samples/bin
 export FABRIC_CFG_PATH=$HOME/fabric-samples/config
 ```
 
-###  Downloading VSN: COVID-19 Vaccine Supply Chain Project
+###  Downloading VSN: Vaccine Supply Chain Project
 ```
     cd $HOME
     git clone https://github.com/Risvy/VSN-A-Hyperledger-Fabric-Project.git
