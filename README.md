@@ -26,14 +26,14 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 source ~/.bashrc
 ```
 
-We have used node version 14.15.0. To install v14.15.0:
+We have used node version 14.15.0. To install v14.15.0 (Optional):
 
 ```
 nvm install v14.15.0
 nvm use v14.15.0
 ```
 
- To install LTS (Long-term support) version of node:
+ To install LTS (Long-term support) version of node (Optional):
 ```
 
 nvm install --lts
