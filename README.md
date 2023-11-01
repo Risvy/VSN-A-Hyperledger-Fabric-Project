@@ -1,7 +1,20 @@
 
 # Vaccine Supply Chain 
 
-A blockchain-based supply chain for end-to-end traceability of the vaccine while ensuring proper distribution and secure transportation.
+## Abstract
+In the context of the COVID-19 pandemic, while we’re trying to slow down the spread of coronavirus, the success will highly depend on performing a successful vaccination program. In this
+case, some of the obstacles that may arise include but are not limited to, the risk of counterfeit
+COVID-19 vaccines, not transporting the vaccines in an expected way throughout their journey,
+the possibility of altering sensitive data, e.g., changing production or expiration date, etc. In
+this context, we propose a Blockchain-based solution. The proposed solution ensures end-to-end
+traceability and transparency in the supply chain while maintaining a proper distribution of the
+vaccine. As the government is highly concerned about managing healthcare during and after the
+COVID-19 pandemic, building trust and reducing costs by implementing a secure and transparent
+system to flatten the curve will have a promising impact on both public health and the economy of
+our country. Moreover, this system will help to increase revenue by reducing the loss of sales due
+to counterfeit vaccines. The private blockchain can have a promising impact on the supply chain
+environment and its relative sections.
+
 
 
 # Contributors: 
